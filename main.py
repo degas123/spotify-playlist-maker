@@ -2,7 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
-
+Client_ID = ${{secrets.CLIENT_ID}}
+Client_Secret = ${{secrets.CLIENT_SECRET}}
+OAUTH_AUTHORIZE_URL= ${{secrets.OAUTH_AUTHORIZE_URL}}
 
 
 date = input("Which year do you want to travel to Type the date in this format YYYY-MM-DD\n")
